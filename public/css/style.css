@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+img{
+	max-width: 100%;	
+}
+/*Elementos de Quien Soy*/
+.no-lista{
+	margin: 0px;
+	padding:0px;
+}
+
+.no-lista li{
+	list-style-type: none;
+}
+
+.quitar-float{
+	float: none;
+}
+
+.se-gris{
+	background-color:#eee;
+}
+
+.inlineblock{
+	float:none;
+	display:inline-block;
+}
+
+.topcontacto{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.solomenu,a{
+	padding-top: 1em;
+}
+
+.opensans{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.retraso-1{
+	animation-delay: 1s;
+}
+.retraso-2{
+	animation-delay: 2s;
+}
+
+.letrasblancas{
+	color:#FFFFFF;
+}
+
+body{
+	background-image:url(../img/logo/bg04.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}
