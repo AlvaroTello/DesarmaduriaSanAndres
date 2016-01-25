@@ -11,7 +11,7 @@ html(lang="es")
 		div(class="container-fluid")
 			div(class="container navbar navbar-fixed-top")
 				div(class="row")
-					div(class="col-lg-4 col-md-4")
+					div(class="col-sx-4 col-sm-4 col-lg-4 col-md-4")
 						a(href="#") 
 							img(src="/img/logo/logo.png" alt="logotipoemp")
 					div(class="col-lg-8 col-md-8" style="padding-top:2em")
@@ -77,42 +77,57 @@ html(lang="es")
 				div(class="row")
 					div(class="col-md-12 col-lg-12")
 						h2 Busca y Encuentra con nosotros
-					div(class="col-lg-4 col-md-12")
-						//Imagen de Servicio 1
-						img(src="img/services/venta.jpg" alt="" class="img-circle")
-						span(fa fa-automobile)
-							h3 Venta de Automoviles
-							p Encuentra con nosotros los mejores precios de autos usados, de todas las marcas. Has clic en el boton para revisar el listado de Vehiculos a Disposicion y si te interesa alguna no dudes en Contactarnos.
-						button(type="button" class="btn btn-primary") Ver Listado de Vehiculos
-					div(class="col-lg-4 col-md-12")
-						//Imagen de Servicio 1
-						img(src="img/services/Desarme.jpg" alt="" class="img-circle")
-						span(fa fa-dashboard)
-							h3 Desarme de Vehiculos
-							p Revise en esta seccion nuestra amplia galería de fotos con las últimas unidades de vehículos que fueron ingresados a desarme, el REPUESTO que usted busca, podría estar DISPONIBLE y operativo, en alguno de los modelos. Si te interesa alguna no dudes en Contactarnos.
-						button(type="button" class="btn btn-primary") Vehiculos en Desarme
-					div(class="col-lg-4 col-md-12")
-						//Imagen de Servicio 1
-						img(src="img/services/Piesas.jpg" alt="" class="img-circle")
-						span(fa fa-cogs)
-							h3 Venta de Repuestos
-							p Todos los repuestos origianles para tu vehículo los encentras acá. Tenemos en venta piezas de repuestos a precios asequibles que se diferencian de los precios de otras empresas. Si te interesa alguna no dudes en Contactarnos.
-						button(type="button" class="btn btn-primary") Repuestos Disponibles
+						p Encuentra Tu Vehiculo Usado - En Desarme o simplemente el repuesto que estas buscando a continuacion:
+					//Servicio 1
+					div(class="col-lg-4 col-md-4 clearfix")
+						div(class="thumbnail")
+							//Imagen de Servicio 1
+							img(src="img/services/Venta.jpg" alt="" class="img-circle")
+							div(class="caption")
+								h3(class="text-center") Venta de Automoviles
+								p(class="text-justify") Encuentra con nosotros los mejores precios de autos usados, de todas las marcas. Has clic en el boton para revisar el listado de Vehiculos a Disposicion y si te interesa alguna no dudes en Contactarnos.
+								p(class="text-center")
+									a(a href="#" class="btn btn-primary" role="button") Ver Listado de Vehiculos
+					//Servicio 2
+					div(class="col-lg-4 col-md-4 clearfix")
+						div(class="thumbnail")
+							//Imagen de Servicio 1
+							img(src="img/services/Desarme.jpg" alt="" class="img-circle")
+							div(class="caption")
+								h3(class="text-center") Desarme de Vehiculos
+								p(class="text-justify") Revise nuestra amplia galería de fotos con los últimos vehículos ingresados a desarme, el REPUESTO que usted busca podría estar DISPONIBLE y operativo, en alguno de los modelos. Si te interesa alguna no dudes en Contactarnos.
+								p(class="text-center")
+									a(a href="#" class="btn btn-primary" role="button") Vehiculos en Desarme
+					//Servicio 3
+					div(class="col-lg-4 col-md-4 clearfix")
+						div(class="thumbnail")
+							//Imagen de Servicio 1
+							img(src="img/services/Piesas.jpg" alt="" class="img-circle")
+							div(class="caption")
+								h3(class="text-center") Venta de Repuestos
+								p(class="text-justify") Todos los repuestos origianles para tu vehículo los encentras acá. Tenemos en venta piezas de repuestos a precios asequibles que se diferencian de los precios de otras empresas. Si te interesa alguna no dudes en Contactarnos.
+								p(class="text-center")
+									a(a href="#" class="btn btn-primary" role="button") Repuestos Disponibles
 		//Contacto
 		div(class="container-fluid" style="padding-top:8em; padding-bottom:2em" id="contacto")
 			div(class="container letrasblancas")
 				div(class="row")
 					div(class="col-md-12 col-lg-12")
-						h3 Contactenos
-						p Profesionalismo y Disposicion al servicio de la IV Región
+						strong
+							h3 Contactenos
+						strong
+							p Profesionalismo y Disposicion al servicio de la IV Región
 						div(class="col-lg-6")
 							iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3434.215624121771!2d-71.20853177538817!3d-30.599680773039236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968e4aa789f01175%3A0x4bbb5a799821e31b!2sLord+Cochrane+495%2C+Ovalle%2C+Regi%C3%B3n+de+Coquimbo%2C+Chile!5e0!3m2!1ses-419!2s!4v1453749068354" width="400" height="300" frameborder="0" style="border:0" allowfullscreen)
 						div(class="col-lg-6")
-							h2 Desarmaduria San Andres
-							p Lord Cochrane N°495 - Ovalle IV Region
-							p Fonos de Contacto: +56 9 00000000- +56 9 00000000
-							p Email:
-								strong desarmaduria.sanandres@gmail.com
+							strong
+								h2 Desarmaduria San Andres
+							strong
+								p Lord Cochrane N°495 - Ovalle IV Region
+							strong
+								p Fonos de Contacto: +56 9 00000000- +56 9 00000000
+							strong
+								p Email: desarmaduria.sanandres@gmail.com
 		//Pie de Pagina
 		div(class="container-fluid" style="padding-top:2em; padding-bottom:2em; background-color:#000000")
 			div(class="container letrasblancas text-center")
