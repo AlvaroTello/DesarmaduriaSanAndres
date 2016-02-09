@@ -50,9 +50,13 @@ img{
 	color:#FFFFFF;
 }
 
-body{
+.fondocontacto{
 	background-image:url(../img/logo/bg04.jpg);
 	background-repeat:no-repeat;
 	background-size:100%;
 	background-attachment:fixed;
+}
+
+.fondoblanco{
+	background-color:#FFFFFF;
 }
